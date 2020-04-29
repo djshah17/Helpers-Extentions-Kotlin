@@ -30,3 +30,15 @@ Method | Description
 `showDatePicker` | Display date picker dialog
 `showTimePicker` | Display time picker dialog
 
+## Validity Helper
+Method | Description
+------ | ------
+`isStringValid` | Check string null, empty or not
+`isEmailValid` | Check email is valid or not
+`isPasswordValid` | Check password is according to given pattern or not
+
+## LocalNotificationsHelper
+Method | Description
+------ | ------
+`sendNotification` | Send local notification according to given parameters
+`clearNotifications` | Clear all app notifications
